@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodrigo Dias</title>
+    <link rel="icon" type="image/jpg" href="imagens/icon1.png" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="scroller-watcher"></div>
+
+    <nav class="nav">
+        <ul>
+            <li class="nav-item"><a href="#section1">Home</a></li>
+            <li class="nav-item"><a href="#section2">About Me</a></li>
+            <li class="nav-item"><a href="#section3">Projects</a></li>
+            <li class="nav-item"><a href="#section4">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <section class="section_B" id="section1" class="home">
+        <div class="name">
+            <h1 class="name-txt">
+                Rodrigo.
+            </h1>
+        </div>
+        <div class="scroller">
+            <div class="scroller__inner">
+                <h3>Java</h3>
+                <h3>C</h3>
+                <h3>Kotlin</h3>
+                <h3>Python</h3>
+                <h3>C++</h3>
+                <h3>JavaScript</h3>
+                <h3>HTML</h3>
+                <h3>CSS</h3>
+            </div>
+        </div>
+        <script>
+            var copy = document.querySelector(".scroller__inner").cloneNode(true);
+            document.querySelector(".scroller").appendChild(copy);
+        </script>
+    </section>
+
+    <section class="section_A" id="section2">
+        <div class="title-white">
+            <h2>About Me</h2>
+        </div>
+        <div class="conteiner">
+            <div class="foto">
+                <a href="https://linkedin.com/in/rodrigo-dias3">
+                    <img src="imagens/perfil1.png" alt="" class="zoom_2">
+                </a>
+            </div>
+            <div class="intro">
+                <p>
+                    Welcome to my digital portfolio. My name is Rodrigo Dias, I'm 19 years old and originally from
+                    Lisbon.
+                    Currently, I am in the 2nd year of my degree in Computer Engineering. With an average of 16,
+                    I have constantly looked for challenges and opportunities to expand my academic and professional
+                    horizons.
+                </p>
+                <p>
+                    Programming is a recent reality in my life.
+                </p>
+                <p>
+                    During my high school, I chose a Philosophy subject instead of the Applications and IT subject,
+                    this offered me not only a deeper understanding of the fundamental issues of human existence, but
+                    also developed
+                    my critical thinking capacity and analysis. By delving into debates about ethics and logic I
+                    discovered a passion
+                    for intellectual challenges and solving complex problems. This experience sparked an interest in
+                    logic and structured
+                    reasoning in me, leading me to further explore the vast world of technology and computing. I then
+                    chose to pursue Computer
+                    Engineering in college, where I can not only apply these analytical and critical thinking skills,
+                    but also delve into the
+                    art of programming, transforming abstract concepts into concrete and innovative solutions to the
+                    challenges of the modern world.
+                </p>
+                <p>
+                    Today I see programming as a world where the only limit is the human imagination, and with fewer or
+                    more challenges everything is possible.
+                </p>
+                <p>
+                    In my free time I like to dive and explore the world of video games or hang out with friends and
+                    enjoy sunny afternoons.
+                    One of my passions is water polo, an activity that combines my passion for the water with the
+                    camaraderie and competitiveness of team sports.
+                </p>
+                <p>
+                    This digital portfolio is a sample of my work, projects and achievements to date. I invite you to
+                    explore and discover more about me and my journey so far.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_B_2" id="section3">
+        <div class="parent">
+            <div class="son">
+                <a href="https://github.com/RodrigoDias3/Jogo_Das_Tendas">
+                    <img src="imagens/tendas.png" alt="" class="zoom">
+                </a>
+            </div>
+            <div class="son">
+                <a href="https://github.com/RodrigoDias3/Xadrez">
+                    <img src="imagens/deisichess.png" alt="" class="zoom">
+                </a>
+            </div>
+            <div class="son">
+                <a href="https://github.com/RodrigoDias3/Casa_Inteligente">
+                    <img src="imagens/casa.jpg" alt="" class="zoom">
+                </a>
+            </div>
+            <div class="son">
+                <a href="https://github.com/RodrigoDias3/Gestor_Portos">
+                    <img src="imagens/portos.png" alt="" class="zoom">
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section_B_2">
+        <div class="title-projects">
+            <h2>Projects</h2>
+        </div>
+        <div class="parent_2">
+            <div class="son">
+                <a href="https://rodrigodias3.github.io/BlackJack/">
+                    <img src="imagens/blackjack.png" alt="" class="zoom">
+                </a>
+            </div>
+            <div class="son">
+                <a href="https://rodrigodias3.github.io/Calculadora">
+                    <img src="imagens/calculadora.png" alt="" class="zoom">
+                </a>
+            </div>
+            <div class="son">
+                <a href="https://github.com/RodrigoDias3/Albuns">
+                    <img src="imagens/AED.png" alt="" class="zoom">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_A" id="section4">
+        <div class="title-white">
+            <h2>Contact Me</h2>
+        </div>
+        <div class="conteiner">
+            <div class="cv">
+                <div class="cv-qrcode">
+                    <img src="imagens/icon1.png" alt="">
+                </div>
+
+                <div class="cv-download">
+                    <a href="files/cv.pdf" download class="cv-button">
+                        <span class="cv-buttonspan">Download CV</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="email-form">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="1b5a58f3-4108-46d2-a30d-0ad35448db85">
+                    <h3 style="color: rgb(0, 162, 255);">Send me an Email</h3>
+                    <div class="form-group">
+                        <label for="name">Your Name:</label><br>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email:</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+                    </div>
+                    <input type="submit" value="Send Email">
+                </form>
+            </div>
+
+            <div class="thanks">
+                <h1>Thank You</h1>
+            </div>
+
+            <div class="bottom-stage">
+                <div class="message">
+                    <p>Got any questions or just want to say hi? Feel free to drop me a message!</p>
+                </div>
+
+                <div class="social-icons">
+                    <a href="https://linkedin.com/in/rodrigo-dias3" target="_blank">
+                        <img src="imagens/linkedin.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com/RodrigoDias3" target="_blank">
+                        <img src="imagens/github.png" alt="GitHub">
+                    </a>
+                    <a href="https://europa.eu/europass/eportfolio/screen/share/aee73df0-0c6f-4368-aab3-cf7644bcd1f4?lang=en"
+                        target="_blank">
+                        <img src="imagens/europass.png" alt="Europass">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <button id="scrollToTopBtn" onclick="scrollToTop()"><img src="imagens/pointer.png" alt=""></button>
+</body>
+
+</html>
