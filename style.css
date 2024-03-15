@@ -685,7 +685,8 @@ input[type="submit"]:hover {
     .cv {
         height: 200px;
         width: 180px;
-        left: 25%;
+        left: 50%;
+        transform: translate(-50%,0%);
         top: 65%;
     }
 
@@ -705,12 +706,14 @@ input[type="submit"]:hover {
         height: 15%;
         width: 100%;
         top: 85%;
-        left: 0%;
+        left: 50%;
+        transform: translate(-50%,0%);
     }
 
     .email-form {
-        left: 5%;
+        left: 50%;
         top: 12%;
+        transform: translate(-50%,0%);
         width: 250px;
         padding: 20px;
         border-radius: 10px;
