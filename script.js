@@ -11,3 +11,15 @@ window.addEventListener('scroll', function() {
 function scrollToTop() {
     document.documentElement.scrollTop = 0;
 }
+
+window.addEventListener("orientationchange", function() {
+    var orientation = window.orientation;
+
+    // Se a orientação for paisagem, forçar de volta para retrato
+    if (orientation === 90 || orientation === -90) {
+        document.body.style.transform = "rotate(0deg)";
+        document.body.style.width = "100%";
+        document.body.style.overflow = "hidden";
+        alert("Por favor, gire o dispositivo de volta para a orientação retrato.");
+    }
+});
