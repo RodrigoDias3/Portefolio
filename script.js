@@ -2,9 +2,9 @@
 window.addEventListener('scroll', function() {
     var scrollToTopBtn = document.getElementById("scrollToTopBtn");
     if (document.documentElement.scrollTop > 100) {
-        scrollToTopBtn.style.display = "block"; // Mostra o botão quando a rolagem da página for maior que 100px
+        scrollToTopBtn.style.display = "block";
     } else {
-        scrollToTopBtn.style.display = "none"; // Oculta o botão quando a rolagem da página for menor ou igual a 100px
+        scrollToTopBtn.style.display = "none";
     }
 });
 
@@ -15,7 +15,6 @@ function scrollToTop() {
 window.addEventListener("orientationchange", function() {
     var orientation = window.orientation;
 
-    // Se a orientação for paisagem, forçar de volta para retrato
     if (orientation === 90 || orientation === -90) {
         document.body.style.transform = "rotate(0deg)";
         document.body.style.width = "100%";
